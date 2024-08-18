@@ -1,4 +1,4 @@
-Put this in localhost
+Put this in localhost(PHP required)
 
 install wget on /usr/local/bin/wget
 
