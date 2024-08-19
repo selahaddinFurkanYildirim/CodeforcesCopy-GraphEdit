@@ -22,9 +22,5 @@ $localDir = __DIR__ . '/' ;
 $localFilePath = $localDir . '/index.html';
 
 // Yerel dosyayı kontrol et ve göster
-if (file_exists($localFilePath)) {
-    header("Location: $requestedUrl");
-} else {
-    echo "Yerel dosya bulunamadı: $localFilePath";
-}
+header("Location: $requestedUrl");
 ?>
